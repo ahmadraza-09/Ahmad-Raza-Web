@@ -1,0 +1,76 @@
+.navbar-section {
+    width: 90%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 55px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-section.activated {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    /* Center the navbar horizontally */
+    transform: translateX(-50%);
+    /* Adjust position to center */
+    background-color: #fff;
+    z-index: 98;
+    border-radius: 55px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-section h1 {
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.logo-section img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #000;
+}
+
+.menu-section li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.buttons-section button {
+    border-radius: 32px;
+    background: rgba(0, 117, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
