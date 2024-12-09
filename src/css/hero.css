@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 20px 20px;
     margin-top: 20px;
 }
 
@@ -42,4 +42,20 @@
 .hero-section .hero-content button:hover {
     background-color: #fff;
     color: #5184FF;
+}
+
+/* RESPOINSIVE */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .hero-section img {
+        width: 100%;
+    }
+
+    .hero-section .hero-content {
+        width: 100%;
+    }
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "../css/navbar.css";
 import Logo from "../assets/logo.png";
+import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -33,10 +34,13 @@ const Navbar = () => {
     <nav
       className={navbarsection ? "navbar-section activated" : "navbar-section"}
     >
+      {/* Mobile Menu (conditionally rendered) */}
+      {isOpen && <MobileMenu />}
+
       <div className="logo-section">
         {/* <h1>&lt;/&gt;</h1> */}
         <img src={Logo} alt="" />
-        {/* <h1>Raza Webs</h1> */}
+        <h1>Raza Webs</h1>
       </div>
       <ul className="menu-section">
         <li>Home</li>

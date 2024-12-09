@@ -31,10 +31,12 @@ const Hero = () => {
           wrapper="span"
           speed={10}
           style={{
-            fontSize: "2em",
+            fontSize: "1.8em",
             display: "inline-block",
             fontWeight: "700",
+            textShadow: "#00000026 0px 4px 4px",
           }}
+          className="hero-heading"
           repeat={Infinity}
         />
         <br />

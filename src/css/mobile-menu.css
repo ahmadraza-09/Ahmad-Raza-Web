@@ -1,0 +1,115 @@
+.mobile-menu-section {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    height: fit-content;
+    width: 320px;
+    background-color: #fff;
+    z-index: 99;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mobile-menu-header img {
+    width: 80px;
+}
+
+.mobile-menu-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+.mobile-menu-header h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mobile-menu-menus {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.mobile-menu-menus ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.mobile-menu-menus ul li {
+    width: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    text-align: center;
+    background-color: #5184FF;
+    color: #fff;
+    padding: 10px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600;
+}
+
+.mobile-menu-menus button {
+    background-color: #5184FF;
+    color: #fff;
+    border: none;
+    width: fit-content;
+    margin: auto;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.mobile-menu-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-top: 1px solid #000;
+}
+
+.mobile-menu-footer-socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mobile-menu-footer-socialmedia i {
+    font-size: 20px;
+}
+
+.mobile-menu-footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mobile-menu-footer-contact a i {
+    font-size: 20px;
+    color: #000;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .mobile-menu-section {
+        width: 100%;
+    }
+}
