@@ -8,8 +8,6 @@ const HomePage = () => {
         <>
             <Navbar />
             <Hero />
-            <Hero />
-            <Hero />
         </>
     )
 }

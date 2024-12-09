@@ -25,7 +25,7 @@
 
 .hero-section .hero-content button {
     text-transform: uppercase;
-    background: rgba(0, 117, 255, 0.4);
+    background: #fff;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(8.5px);
     -webkit-backdrop-filter: blur(8.5px);
@@ -34,7 +34,12 @@
     padding: 5px 20px;
     border-radius: 55px;
     font-weight: 600;
-    color: #fff;
+    color: #5184FF;
     font-size: 18px;
     cursor: pointer;
+}
+
+.hero-section .hero-content button:hover {
+    background-color: #fff;
+    color: #5184FF;
 }

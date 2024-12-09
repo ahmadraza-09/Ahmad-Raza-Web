@@ -1,8 +1,14 @@
 import React, { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import "../css/navbar.css";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const [isOpen, setIsOpen] = useState(false);
+
   const [navbarsection, setNavbarSection] = useState(false);
 
   const navbarFixed = () => {
@@ -15,6 +21,14 @@ const Navbar = () => {
 
   window.addEventListener("scroll", navbarFixed);
 
+  const isActive = (path) => {
+    return location.pathname === path ? "active" : "";
+  };
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <nav
       className={navbarsection ? "navbar-section activated" : "navbar-section"}
@@ -22,7 +36,7 @@ const Navbar = () => {
       <div className="logo-section">
         {/* <h1>&lt;/&gt;</h1> */}
         <img src={Logo} alt="" />
-        <h1>Raza Webs</h1>
+        {/* <h1>Raza Webs</h1> */}
       </div>
       <ul className="menu-section">
         <li>Home</li>
@@ -33,6 +47,17 @@ const Navbar = () => {
       </ul>
       <div className="buttons-section">
         <button>Book Service</button>
+        <div className="menu-bars" onClick={toggleMenu}>
+          {isOpen ? (
+            <label htmlFor="check">
+              <i className="fa-solid fa-close"></i>
+            </label>
+          ) : (
+            <label htmlFor="check">
+              <i className="fa-solid fa-bars"></i>
+            </label>
+          )}
+        </div>
       </div>
     </nav>
   );
