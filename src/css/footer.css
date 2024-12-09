@@ -42,6 +42,28 @@
     justify-content: start;
     gap: 10px;
     font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-section .footer-column ul li:hover {
+    transform: translateX(10px);
+}
+
+.footer-column .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.footer-column .social-icons i {
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-column .social-icons i:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 /* RESPONSIVE */
@@ -51,5 +73,5 @@
         padding: 30px 10px;
         gap: 30px;
     }
-    
+
 }

@@ -4,19 +4,17 @@ import "../css/socialmedia-fixed.css";
 import Call from "../assets/icons/phone-call.png";
 import Whatsapp from "../assets/icons/whatsapp.png";
 
-
 const SocialMediaFixed = () => {
   return (
     <>
       {/* Left side icons */}
       <div className="social-media-fixed-section-left">
         <div className="social-media-icons">
-          
-          <a href="tel:+919958866101" target="_blank" rel="noopener noreferrer">
+          <a href="tel:+919297829642" target="_blank" rel="noopener noreferrer">
             <img src={Call} alt="Call" />
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=919958866101&text=Hello!%20I%20have%20a%20query%20regarding%20Corbett%20Aroma%20Park."
+            href="https://api.whatsapp.com/send?phone=919297829642&text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20web%20development%20services.%20Can%20you%20please%20share%20more%20details%3F"
             target="_blank"
           >
             <img src={Whatsapp} alt="Call" />

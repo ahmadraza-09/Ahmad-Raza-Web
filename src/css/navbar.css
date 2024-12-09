@@ -93,6 +93,15 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
+    .navbar-section {
+        padding: 0px 20px 0px 10px;
+        width: 95%;
+    }
+
+    .logo-section h1 {
+        font-size: 25px;
+    }
+
     .menu-section {
         display: none;
     }
@@ -100,7 +109,7 @@
     .buttons-section .menu-bars {
         display: flex;
     }
-    
+
     .buttons-section button {
         display: none;
     }
