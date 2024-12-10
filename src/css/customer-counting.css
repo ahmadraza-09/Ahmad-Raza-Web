@@ -72,7 +72,7 @@
         padding: 40px 20px;
     }
 
-    .customer-counting-container  {
+    .customer-counting-container {
         flex-direction: column;
         height: fit-content;
         padding: 20px;
@@ -80,5 +80,7 @@
 
     .customers-counting-card-box:not(:first-child) {
         border: none;
+        padding: 0px;
+        justify-content: space-between;
     }
 }

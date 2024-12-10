@@ -41,9 +41,9 @@ const Hero = () => {
         />
         <br />
         <p>
-          Raza Webs is a comprehensive web solutions agency. Our skilled team of
-          web developers, creative designers, UX/UI experts, and digital
-          strategists excel in creating tailored websites, dynamic web
+          Raza Webs Solution is a comprehensive web solutions agency. Our
+          skilled team of web developers, creative designers, UX/UI experts, and
+          digital strategists excel in creating tailored websites, dynamic web
           applications, and engaging user experiences. Whether it's a
           custom-built website, a feature-rich WordPress site, or innovative app
           development, we ensure seamless functionality and outstanding design.

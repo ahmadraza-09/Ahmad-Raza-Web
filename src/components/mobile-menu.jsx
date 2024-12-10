@@ -5,10 +5,6 @@ import Logo from "../assets/logo1.png";
 const MobileMenu = () => {
   return (
     <div className="mobile-menu-section">
-      <div className="mobile-menu-header">
-        <img src={Logo} alt="" />
-        <h1>Raza Webs</h1>
-      </div>
       <div className="mobile-menu-menus">
         <ul>
           <li>Home</li>

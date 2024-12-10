@@ -7,11 +7,11 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    padding: 40px 20px;
+    padding: 60px 20px;
     background-image: url('../assets/backgrounds/bg1.avif');
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
 .who-we-are-section h1 {
