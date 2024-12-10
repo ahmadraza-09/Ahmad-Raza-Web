@@ -43,3 +43,18 @@
 .services-container .services-box:hover {
     transform: scale(1.05);
 }
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .services-section h1 {
+        font-size: 25px;
+    }
+
+    .services-section p {
+        font-size: 12px;
+    }
+
+    .services-box h3 {
+        font-size: 18px;
+    }
+}
