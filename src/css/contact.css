@@ -1,0 +1,138 @@
+.contact-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.contact-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container-left {
+    width: 50%;
+    height: fit-content;
+}
+
+.contact-container-left img {
+    width: 100%;
+}
+
+.contact-container-right {
+    width: 50%;
+    height: fit-content;
+    padding: 0px 40px;
+}
+
+.contact-container-right form {
+    width: 100%;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.contact-container-right form input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #E1E8F0;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-container-right form textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    border: none;
+    outline: none;
+    background-color: #E1E8F0;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-container-right form button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0075FF;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-details {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-details-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.contact-details-box i {
+    background-color: #0075FF;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 55px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-section {
+        gap: 40px;
+    }
+
+    .contact-container-left {
+        display: none;
+    }
+
+    .contact-container-right {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .contact-details {
+        flex-wrap: wrap;
+    }
+
+    .contact-details-box {
+        padding: 10px;
+    }
+
+    .contact-details-box i {
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,79 @@
+/* Modal Container */
+.form-modal-container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    overflow-y: none;
+}
+
+.form-modal-container>form {
+    padding: 20px 20px;
+    max-width: 800px;
+    width: 450px;
+    height: fit-content;
+    background-color: #fff;
+    /* background-color: #A2D2DF; */
+    /* background-color: #FFBF61; */
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-modal-container>form input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #E1E8F0;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.form-modal-container>form textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    border: none;
+    outline: none;
+    background-color: #E1E8F0;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.form-modal-container>form button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0075FF;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Close Button */
+.hide-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #0075FF;
+}

@@ -1,33 +1,60 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../css/mobile-menu.css";
-import Logo from "../assets/logo1.png";
+import HomeIcon from "../assets/icons/home.png";
+import AboutIcon from "../assets/icons/information-button.png";
+import ServicesIcon from "../assets/icons/repair-tool.png";
+import PortfolioIcon from "../assets/icons/portfolio.png";
+import ContactIcon from "../assets/icons/chat.png";
 
 const MobileMenu = () => {
+  const navigate = useNavigate();
   return (
     <div className="mobile-menu-section">
       <div className="mobile-menu-menus">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li>
+            <img src={HomeIcon} alt="" />
+            Home
+          </li>
+          <li>
+            <img src={AboutIcon} alt="" />
+            About
+          </li>
+          <li>
+            <img src={ServicesIcon} alt="" />
+            Services
+          </li>
+          <li>
+            <img src={PortfolioIcon} alt="" />
+            Portfolio
+          </li>
+          <li>
+            <img src={ContactIcon} alt="" />
+            Contact
+          </li>
         </ul>
-        <button>Book Service</button>
+        <button
+          onClick={() => {
+            navigate("/contact");
+          }}
+        >
+          Book Service
+        </button>
       </div>
       <div className="mobile-menu-footer">
         <div className="mobile-menu-footer-socialmedia">
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-square-x-twitter"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-square-x-twitter"></i>
         </div>
         <div className="mobile-menu-footer-contact">
           <a href="tel:+919297829642">
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
           </a>
           <a href="mailto:contact@razawebs.com">
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
       </div>

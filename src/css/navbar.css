@@ -1,3 +1,14 @@
+header {
+    width: 100%;
+    height: fit-content;
+}
+
+.active {
+    background-color: #0075FF;
+    color: #fff;
+    border-radius: 5px;
+}
+
 .navbar-section {
     width: 90%;
     height: 60px;
@@ -33,6 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .logo-section h1 {
@@ -50,13 +62,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     color: #000;
 }
 
 .menu-section li {
     cursor: pointer;
     font-weight: 500;
+    padding: 0px 5px;
 }
 
 .buttons-section {
@@ -84,10 +97,20 @@
     font-weight: 600;
     font-size: 16px;
     text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.buttons-section button:hover {
+    background-color: #005bbb;
+    color: #fff;
 }
 
 .buttons-section .menu-bars {
     display: none;
+}
+
+.buttons-section .menu-bars img {
+    width: 35px;
 }
 
 /* RESPONSIVE */
