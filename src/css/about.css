@@ -1,0 +1,144 @@
+.about-us-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #0075FF, #00A3FF);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Who We Are Section */
+.who-we-are {
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.who-we-are h2 {
+    font-size: 2rem;
+    color: #0075FF;
+    margin-bottom: 15px;
+}
+
+.who-we-are p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* What We Do Section */
+.what-we-do {
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.what-we-do h2 {
+    font-size: 2rem;
+    color: #0075FF;
+    margin-bottom: 15px;
+}
+
+.what-we-do ul {
+    list-style: none;
+    padding: 0;
+}
+
+.what-we-do ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    padding: 30px 20px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #0075FF;
+    margin-bottom: 15px;
+}
+
+.testimonial-card {
+    margin-top: 20px;
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card h4 {
+    margin-top: 10px;
+    color: #555;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+/* Footer Section */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .who-we-are p,
+    .what-we-do ul li {
+        font-size: 1rem;
+    }
+
+    .testimonials h2 {
+        font-size: 1.5rem;
+    }
+}

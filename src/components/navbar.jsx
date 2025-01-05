@@ -71,9 +71,30 @@ const Navbar = () => {
           >
             Home
           </li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Portfolio</li>
+          <li
+            className={isActive("/about")}
+            onClick={() => {
+              navigate("/about");
+            }}
+          >
+            About
+          </li>
+          <li
+            className={isActive("/services")}
+            onClick={() => {
+              navigate("/services");
+            }}
+          >
+            Services
+          </li>
+          <li
+            className={isActive("/portfolio")}
+            onClick={() => {
+              navigate("/portfolio");
+            }}
+          >
+            Portfolio
+          </li>
           <li
             className={isActive("/contact")}
             onClick={() => {

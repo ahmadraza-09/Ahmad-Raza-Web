@@ -4,7 +4,7 @@ import Navbar from '../components/navbar'
 import Hero from '../components/hero'
 import Footer from '../components/footer'
 import SocialMediaFixed from '../components/socialmedia-fixed'
-import Services from '../components/services'
+import ServicesSection from '../components/services-section'
 import WhoWeAre from '../components/who-we-are'
 import CustomerCounting from '../components/customer-counting'
 
@@ -34,7 +34,7 @@ const HomePage = () => {
             </Helmet>
             <Navbar />
             <Hero />
-            <Services />
+            <ServicesSection />
             <WhoWeAre />
             <CustomerCounting />
             <Footer />
