@@ -1,0 +1,140 @@
+header {
+    width: 100%;
+    height: fit-content;
+}
+
+.active {
+    background-color: #0075FF;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.navbar-section {
+    width: 90%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 55px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.navbar-section.activated {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    /* Center the navbar horizontally */
+    transform: translateX(-50%);
+    /* Adjust position to center */
+    background-color: #fff;
+    z-index: 98;
+    border-radius: 55px;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo-section h1 {
+    font-size: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.logo-section img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #000;
+}
+
+.menu-section li {
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0px 5px;
+}
+
+.buttons-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-section i {
+    font-size: 30px;
+}
+
+.buttons-section button {
+    border-radius: 32px;
+    background: rgba(0, 117, 255, 1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.buttons-section button:hover {
+    background-color: #005bbb;
+    color: #fff;
+}
+
+.buttons-section .menu-bars {
+    display: none;
+}
+
+.buttons-section .menu-bars img {
+    width: 35px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .navbar-section {
+        padding: 0px 20px 0px 10px;
+        width: 95%;
+    }
+
+    .logo-section h1 {
+        font-size: 25px;
+    }
+
+    .menu-section {
+        display: none;
+    }
+
+    .buttons-section .menu-bars {
+        display: flex;
+    }
+
+    .buttons-section button {
+        display: none;
+    }
+
+}
