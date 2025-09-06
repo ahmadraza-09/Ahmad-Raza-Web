@@ -114,8 +114,8 @@ const Contact = () => {
         </div>
         <div className="flex items-center gap-3 shadow-md px-5 py-3 text-lg rounded-lg">
           <Mail size={20} className="text-blue-800" />
-          <a href="mailto:contact@razawebs.com" aria-label="Email Us">
-            contact@razawebs.com
+          <a href="mailto:contact@razasoftwares.in" aria-label="Email Us">
+            contact@razasoftwares.in
           </a>
         </div>
       </div>

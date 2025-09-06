@@ -18,7 +18,7 @@ const Footer = () => {
             <Phone size={20} /> +91 9297829642
           </li>
           <li className="flex items-center gap-2 cursor-pointer hover:translate-x-2 transition-transform">
-            <Mail size={20} /> contact@razawebs.com
+            <Mail size={20} /> contact@razasoftwares.in
           </li>
         </ul>
       </div>
@@ -105,7 +105,11 @@ const Footer = () => {
       <div className="flex flex-col items-start gap-5 sm:w-[20%] w-full">
         <h3 className="uppercase font-semibold">Contact</h3>
         <div className="flex items-center gap-5 text-2xl">
-          <a href="#">
+          <a
+            href="https://www.instagram.com/razasoftwares/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={Instagram}
               alt="Instagram"
@@ -126,7 +130,11 @@ const Footer = () => {
               className="w-8 hover:scale-125 transition-transform cursor-pointer"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://x.com/raza_softwares"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={Twitter}
               alt="Twitter"
