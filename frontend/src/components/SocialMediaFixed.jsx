@@ -7,9 +7,9 @@ const SocialMediaFixed = () => {
   return (
     <>
       {/* Left Side Floating Social Media */}
-      <div className="fixed bottom-10 left-5 z-50 flex flex-col gap-3">
+      <div className="fixed bottom-10 right-5 z-50 flex flex-col gap-3">
         <a
-          href="tel:+919297829642"
+          href="tel:+916201617895"
           target="_blank"
           rel="noopener noreferrer"
           className=" flex items-center justify-center rounded-full hover:scale-110 transition-all duration-300"
@@ -17,7 +17,7 @@ const SocialMediaFixed = () => {
           <img src={Call} alt="Call" className="w-10 h-10" />
         </a>
         <a
-          href="https://api.whatsapp.com/send?phone=919297829642&text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20web%20development%20services.%20Can%20you%20please%20share%20more%20details%3F"
+          href="https://api.whatsapp.com/send?phone=916201617895&text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20web%20development%20services.%20Can%20you%20please%20share%20more%20details%3F"
           target="_blank"
           rel="noopener noreferrer"
           className=" flex items-center justify-center rounded-full hover:scale-110 transition-all duration-300"
