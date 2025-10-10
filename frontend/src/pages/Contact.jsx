@@ -149,8 +149,8 @@ const Contact = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-            Let's discuss your project and explore how we can help you achieve
-            your business goals
+            Let&apos;s discuss your project and explore how we can help you
+            achieve your business goals
           </p>
         </div>
       </section>
@@ -197,7 +197,7 @@ const Contact = () => {
                       contact@razasoftwares.in
                     </a>
                     <p className="text-sm text-gray-600 mt-1">
-                      We'll respond within 24 hours
+                      We&apos;ll respond within 24 hours
                     </p>
                   </div>
                 </div>
@@ -273,7 +273,8 @@ const Contact = () => {
                   Thank You!
                 </h1>
                 <p className="text-lg text-gray-700 mb-6">
-                  Your message has been received. We'll get back to you shortly.
+                  Your message has been received. We&apos;ll get back to you
+                  shortly.
                 </p>
                 <div className="bg-green-50 rounded-lg p-6 mb-6 text-left">
                   <h3 className="font-semibold text-gray-900 mb-4">

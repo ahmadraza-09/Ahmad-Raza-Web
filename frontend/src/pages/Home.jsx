@@ -86,13 +86,6 @@ const Home = () => {
     },
   ];
 
-  const stats = [
-    { number: "500+", label: "Projects Completed" },
-    { number: "200+", label: "Happy Clients" },
-    { number: "50+", label: "Team Members" },
-    { number: "24/7", label: "Support Available" },
-  ];
-
   const whyChooseUs = [
     {
       icon: Award,
@@ -115,19 +108,6 @@ const Home = () => {
       title: "Quality Assurance",
       description: "Rigorous testing and quality checks at every stage",
     },
-  ];
-
-  const locations = [
-    "Ranchi",
-    "Delhi",
-    "Noida",
-    "Greater Noida",
-    "Ahmedabad",
-    "Bhopal",
-    "Patna",
-    "Gurgaon",
-    "Mumbai",
-    "Bangalore",
   ];
 
   return (
@@ -325,8 +305,8 @@ const Home = () => {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Let's discuss how we can help you achieve your digital goals. Get a
-            free consultation today!
+            Let&apos;s discuss how we can help you achieve your digital goals.
+            Get a free consultation today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

@@ -6,12 +6,11 @@ import {
   Twitter,
   Linkedin,
   Instagram,
-  Code2,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../assets/logo3.png";
 
-const Footer = (props) => {
+const Footer = () => {
   const navigate = useNavigate();
   const currentYear = new Date().getFullYear();
 
@@ -115,7 +114,7 @@ const Footer = (props) => {
               {services.slice(0, 6).map((service) => (
                 <li key={service}>
                   <button
-                    onClick={() => onNavigate("services")}
+                    onClick={() => navigate("/services")}
                     className="text-sm hover:text-blue-500 transition-colors text-left"
                   >
                     {service}

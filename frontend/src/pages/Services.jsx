@@ -336,8 +336,8 @@ const Services = () => {
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Comprehensive digital solutions to help your business thrive in
-              the modern world. From development to marketing, we've got you
-              covered.
+              the modern world. From development to marketing, we&apos;ve got
+              you covered.
             </p>
           </div>
         </div>
@@ -450,8 +450,8 @@ const Services = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Let's discuss your project and create a customized solution that
-            meets your needs.
+            Let&apos;s discuss your project and create a customized solution
+            that meets your needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

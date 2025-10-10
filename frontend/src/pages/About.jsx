@@ -1,13 +1,4 @@
-import {
-  Target,
-  Users,
-  Lightbulb,
-  Award,
-  TrendingUp,
-  Globe,
-  Shield,
-  Heart,
-} from "lucide-react";
+import { Target, Users, Lightbulb, Globe, Shield, Heart } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
@@ -184,11 +175,11 @@ const About = () => {
                 Our Vision
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                To be India's most trusted and innovative technology partner,
-                recognized for transforming businesses through cutting-edge
-                software solutions and data-driven digital marketing strategies.
-                We envision a future where every business has access to
-                world-class technology solutions.
+                To be India&apos;s most trusted and innovative technology
+                partner, recognized for transforming businesses through
+                cutting-edge software solutions and data-driven digital
+                marketing strategies. We envision a future where every business
+                has access to world-class technology solutions.
               </p>
             </div>
           </div>
@@ -351,7 +342,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Let's Build Something Amazing Together
+            Let&apos;s Build Something Amazing Together
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             Join hundreds of satisfied clients who trust Raza Softwares for
