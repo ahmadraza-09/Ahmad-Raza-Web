@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
 import { Toaster } from "react-hot-toast";
-import SocialMediaFixed from "./components/SocialmediaFixed";
+import SocialMediaFixed from "./components/SocialMediaFixed";
 
 function App() {
   return (

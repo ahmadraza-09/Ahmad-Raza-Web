@@ -179,7 +179,7 @@ const Home = () => {
             <div className="hidden lg:block">
               <img
                 src="https://action-point.com/wp-content/uploads/2014/10/Software-Development-Team.jpg?auto=compress&cs=tinysrgb&w=800"
-                alt="Professional Technician"
+                alt="Hero Section Image"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
